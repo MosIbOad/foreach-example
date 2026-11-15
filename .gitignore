@@ -1,0 +1,45 @@
+# ==========================================
+# .NET / C# / Visual Studio .gitignore
+# ==========================================
+
+# Build & Intermediate output directories
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Subdirectory outputs
+**/bin/
+**/obj/
+
+# Visual Studio temporary files and user settings
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Visual Studio Code & JetBrains Rider
+.vscode/
+.idea/
+*.swp
+*~
+
+# NuGet packages and project caches
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.assets.json
+
+# Publish output
+[Pp]ublish/
+*.nupkg
+*.snupkg
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
